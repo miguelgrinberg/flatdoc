@@ -6,4 +6,6 @@ python:
   - "3.5"
   - "pypy"
 install: python setup.py install
-script:  python setup.py test
+script:
+  - pip install coverage flake8
+  - python test_flatdoc.py

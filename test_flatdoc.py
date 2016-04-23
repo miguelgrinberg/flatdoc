@@ -44,13 +44,14 @@ submod2
         # unknwon import
         self.assertRaises(ImportError, flatdoc, 'test_data.mod8')
 
+
 if __name__ == '__main__':
     tests_ok = unittest.main(verbosity=2, exit=False).result.wasSuccessful()
 
     # print coverage report
     cov.stop()
     print('')
-    cov.report(omit=['test_*', 'venv/*'])
+    cov.report(include=['flatdoc.py'])
 
     # lint the code
     print('')

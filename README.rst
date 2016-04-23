@@ -1,7 +1,10 @@
 flatdoc
 =======
 
-Flatdoc is a simple tool that generates flat documentation from docstrings that
+.. image:: https://travis-ci.org/miguelgrinberg/flatdoc.svg?branch=master
+    :target: https://travis-ci.org/miguelgrinberg/flatdoc
+
+flatdoc is a simple tool that generates flat documentation from docstrings that
 are defined in modules, functions, classes and methods in your code.
 
 Installation
